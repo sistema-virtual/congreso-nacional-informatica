@@ -88,7 +88,7 @@ function init() {
     const isMobile = CONFIG.isMobile;
 
     
-        overlay.innerHTML = "<p class='text-xl'>Haz clic para mover la cámara (W, A, S, D).</p>";
+        overlay.innerHTML = "<p class='text-xl'>mover cámara.</p>";
         overlay.addEventListener("click", () => {
             controls.lock();
         });
