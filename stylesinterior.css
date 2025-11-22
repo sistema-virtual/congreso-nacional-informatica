@@ -10,12 +10,18 @@ body {
   display: flex;
   flex-direction: column;
 }
+.titulo {
+  text-align: center;
+  color: white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  /* Eliminamos el font-size: 2.5rem; fijo aquí */
+}
 .informacion {
     background: rgba(255, 255, 255, 0.165);
     
       backdrop-filter: blur(15px);
       width: 80%;
-      font-size: 2rem;
       border-radius: 2rem;
       margin: 10%;
       padding: 2%;
@@ -23,8 +29,13 @@ body {
   color: white;
   border-style: solid;
   border-color: red;
+  word-wrap: break-word;
 
-}.informacion p{
+}
+.informacion.titulo{
+  font-size: clamp(1.2rem, 4vw, 2.5rem);
+}
+.informacion p{
   font-size: clamp(0.5%, 3vw, 0.8em);
 }
 .informacion:hover{
@@ -41,13 +52,7 @@ a{
 a:hover{
   background-color: red;
 }
-.titulo {
-  font-size: 2.5rem;
-  text-align: center;
-  color: white;
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
+
 body::-webkit-scrollbar {
   display: none;
 }
