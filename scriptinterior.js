@@ -104,7 +104,7 @@ function init() {
         restaurarTitulos();
     });
 
-    ambientLight = new THREE.AmbientLight(0xffffff, isMobile ? 1.5 : 0.2);
+    ambientLight = new THREE.AmbientLight(0xffffff, isMobile ? 0.2 : 0.2);
     scene.add(ambientLight);
 
     const dirLight = new THREE.DirectionalLight(0xffffff, isMobile ? 0.5 : 0.8);
