@@ -763,10 +763,10 @@ iframe {
   }
   #workarea {
     position: fixed;
-    width: 20%;
+    width: 30%;
     height: 100%;
     top: 0;
-    left: -200px;
+    left: -450px;
     z-index: 9;
     transition: transform 0.3s ease;
     background: rgba(255, 255, 255, 0.08);
@@ -775,11 +775,11 @@ iframe {
   }
 
   #workarea.workarea-open {
-    transform: translateX(200px);
+    transform: translateX(450px);
   }
 
   .svg-wrapper {
-    width: 110%;
+    width: 100%;
     height: 10%;
     margin-bottom: 10px;
   }
@@ -812,12 +812,12 @@ iframe {
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
-    top: 15%;
+    top: 12%;
     left: 5%;
   }
 
   #workarea {
-    width: 30%;
+    width: 50%;
     left: -400px;
     padding: 80px 20px 20px 20px;
   }
@@ -834,8 +834,9 @@ iframe {
     font-size: 17px;
   }
   .boton-luz{
-    top: 17%;
+    top: 13%;
   right: 3%;
+  z-index: 1;
   }
   .titulo-1 {
     top: -200px;
