@@ -35,6 +35,7 @@ body::-webkit-scrollbar {
   display: flex;
   align-items: stretch;
   width: 100%;
+  height: 5%;
 }
 
 .flex-container h1 {
@@ -57,7 +58,7 @@ body::-webkit-scrollbar {
 
 .cruz {
   position: absolute;
-  width: 10%;
+  width: 9%;
   z-index: 10;
 }
 
