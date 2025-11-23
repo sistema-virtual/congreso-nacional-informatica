@@ -549,6 +549,7 @@ const btnInformacion = document.getElementById('abrir-informacion');
 const btnContacto = document.getElementById('abrir-expositores');
 const btnModelo3D = document.getElementById('abrir-modelo3d');
 const btnConvocatoria = document.getElementById('abrir-convocatoria');
+const btnCronograma = document.getElementById('abrir-cronograma');
 
 const btnGaleriaXIII = document.getElementById('abrir-galeriaXIII');
 const btnExpositoresXIII = document.getElementById('abrir-expositoresXIII');
@@ -656,6 +657,7 @@ if (btnInformacion) btnInformacion.addEventListener('click', (e) => { e.preventD
 if (btnContacto) btnContacto.addEventListener('click', (e) => { e.preventDefault(); abrirIframe('./expositores.html', 'modal-expositores'); });
 if (btnModelo3D) btnModelo3D.addEventListener('click', (e) => { e.preventDefault(); abrirIframe('./interior.html', 'modal-modelo3d'); });
 if (btnConvocatoria) btnConvocatoria.addEventListener('click', (e) => { e.preventDefault(); abrirIframe('./convocatoria.html', 'modal-convocatoria'); });
+if (btnCronograma) btnCronograma.addEventListener('click', (e) => { e.preventDefault(); abrirIframe('./cronograma.html', 'modal-cronograma'); });
 
 if (btnGaleriaXIII) btnGaleriaXIII.addEventListener('click', (e) => { e.preventDefault(); abrirIframe('./public/XIIIcongreso/galeria.html', 'modal-galeriaXIII'); });
 if (btnExpositoresXIII) btnExpositoresXIII.addEventListener('click', (e) => { e.preventDefault(); abrirIframe('./public/XIIIcongreso/expositores.html', 'modal-expositoresXIII'); });
